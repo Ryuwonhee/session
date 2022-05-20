@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>쿠키에 대해 알아보자</h1>
+	<p>
+		서버이용시에 필요한 데이터를 저장하는 기술,
+		클라이언트 컴퓨터에 저장함. 문자열만 저장이 가능
+		용량에 제한.
+	</p>
+	<p>
+		쿠키를 생성하는 방법
+		Cookie클래스로 생성 -> 매개변수있는 생성자를 이용함
+		key:value형식으로 저장을 한다.
+		Cookie c=new Cookie("키값","value")
+		옵션설정 경로설정, 유효기간설정
+		쿠키를 클라이언트에게 저장시킬때는 reponse객체를 이용한다.
+	</p>
+	<h3><a href="cookietest.do">쿠키생성하기</a></h3>
+	<h3><a href="cookiecheck.do">쿠키확인하기</a></h3>
+	<h3><a href="cookiedelete.do">쿠키삭제하기</a></h3>
+	<h3><a href="sessiontest.do">세션옵션확인하기</a></h3>
+	<h3><a href="requestexrainfo.do">Request데이터확인</a></h3>
+	
+	
+</body>
+</html>
